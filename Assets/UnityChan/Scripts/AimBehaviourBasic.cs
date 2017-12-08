@@ -12,6 +12,9 @@ public class AimBehaviourBasic : GenericBehaviour
 
 	private int aimBool;                                                  // Animator variable related to aiming.
 	private bool aim;                                                     // Boolean to determine whether or not the player is aiming.
+    private Transform GunEnd;
+    private float lastShoot;
+    private float firerate = 0.25f;
 
 	// Start is always called after any Awake functions.
 	void Start ()
@@ -27,6 +30,8 @@ public class AimBehaviourBasic : GenericBehaviour
 		if (Input.GetAxisRaw(aimButton) != 0 && !aim)
 		{
 			StartCoroutine(ToggleAimOn());
+            Shoot();
+            
 		}
 		else if (aim && Input.GetAxisRaw(aimButton) == 0)
 		{
@@ -132,4 +137,30 @@ public class AimBehaviourBasic : GenericBehaviour
 										 crosshair.width, crosshair.height), crosshair);
 		}
 	}
+
+    public void Shoot()
+    {
+        if(Time.time > lastShoot + firerate)
+        {
+            Vector3 fwd = Camera.main.transform.TransformDirection(Vector3.forward);
+            Vector3 direction = new Vector3();
+
+            RaycastHit hitCam;
+
+            if (Physics.Raycast(Camera.main.transform.position, fwd, out hitCam, 500))
+            {
+                direction = hitCam.point;
+            }
+            Debug.DrawLine(Camera.main.transform.position, direction, Color.green);
+            RaycastHit hit;
+
+            Debug.DrawLine(Camera.main.transform.position, direction, Color.red);
+
+            if (Physics.Linecast(Camera.main.transform.position, direction, out hit))
+            {
+                if (hit.collider) print(hit.collider.gameObject.tag);
+            }
+            lastShoot = Time.time;
+        }
+    }
 }

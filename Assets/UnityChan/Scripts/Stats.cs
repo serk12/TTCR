@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class Stats {
     private Hashtable stats = new Hashtable() {
-        { "Ataque", 0 },
-        { "Defensa", 0 },
-        { "Vida", 0 },
-        { "Cadencia", 0 },
-        { "VelMov", 0 }
+        { "Ataque", 0f },
+        { "Defensa", 0f },
+        { "Vida", 0f },
+        { "Cadencia", 0f },
+        { "VelMov", 0f }
     };
 
     public object getStat(string Key){

@@ -1,0 +1,60 @@
+[33mcommit 29b8fd52cccfc3803c80fa3cd729492827e585c4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Samquete <34360390+Samquete@users.noreply.github.com>
+Date:   Fri Dec 8 13:00:58 2017 +0100
+
+    Add Clases Game
+
+[33mcommit 8fa071ba8a11e6d410b7ea557b4a061caa60a128[m
+Author: Xavier Marques <xaviermarques4f@gmail.com>
+Date:   Fri Dec 8 12:34:59 2017 +0100
+
+    Add final map as object
+
+[33mcommit 4d5388e7c0308de780415114884a7dd403685bc8[m
+Merge: c071d49 51e0744
+Author: root <root@DESKTOP-P84S6PJ.localdomain>
+Date:   Fri Dec 8 11:05:50 2017 +0100
+
+    Merge branch 'master' of https://github.com/serk12/TTCR
+
+[33mcommit 51e07443a91fb38f684af89cfa874f69d9b6b8fe[m
+Author: Xavier Marques <xaviermarques4f@gmail.com>
+Date:   Fri Dec 8 11:45:53 2017 +0100
+
+    Aim
+
+[33mcommit bfb1313a5da450f2db2e46e339930dad163af75f[m
+Author: Xavier Marques <xaviermarques4f@gmail.com>
+Date:   Fri Dec 8 11:44:02 2017 +0100
+
+    Aim char
+
+[33mcommit c071d493b887e9ae1c18a427995c6cd815267f5a[m
+Author: root <root@DESKTOP-P84S6PJ.localdomain>
+Date:   Fri Dec 8 11:05:31 2017 +0100
+
+    final map true 100x
+
+[33mcommit efa1ab691ec8fa03179da382e885cdc0b4180a33[m
+Author: root <root@DESKTOP-P84S6PJ.localdomain>
+Date:   Fri Dec 8 10:42:31 2017 +0100
+
+    full map
+
+[33mcommit e88e51c140e76d53e75e92a8508be8b2e1852850[m
+Author: root <root@DESKTOP-P84S6PJ.localdomain>
+Date:   Fri Dec 8 10:36:03 2017 +0100
+
+    full map
+
+[33mcommit ef048ed821da404f3d7a264ea55f174b8edbc06a[m
+Author: Xavier Marques <xaviermarques4f@gmail.com>
+Date:   Fri Dec 8 04:17:03 2017 +0100
+
+    Add first model char and movements
+
+[33mcommit ad739e84094bd92a7eeaa6f4f7363ac19e6062db[m
+Author: root <root@DESKTOP-P84S6PJ.localdomain>
+Date:   Thu Dec 7 17:26:29 2017 +0100
+
+    1º model UPC
