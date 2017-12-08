@@ -18,6 +18,11 @@ public class Item {
         return equipped;
     }
 
+    public string getName()
+    {
+        return this.name;
+    }
+
     public void setEquipped(bool equip){
         this.equipped = equip;
     }
