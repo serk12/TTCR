@@ -221,13 +221,15 @@
   <ItemGroup>
     <Compile Include="Assets\UnityChan\Scripts\AimBehaviourBasic.cs" />
     <Compile Include="Assets\UnityChan\Scripts\BasicBehaviour.cs" />
-    <Compile Include="Assets\UnityChan\Scripts\CameraController.cs" />
-    <Compile Include="Assets\UnityChan\Scripts\ControlsTutorial.cs" />
-    <Compile Include="Assets\UnityChan\Scripts\FaceUpdate.cs" />
-    <Compile Include="Assets\UnityChan\Scripts\FlyBehaviour.cs" />
-    <Compile Include="Assets\UnityChan\Scripts\IdleChanger.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Game.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Gun.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Inventory.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Item.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Money.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Player.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Game\Stats.cs" />
     <Compile Include="Assets\UnityChan\Scripts\MoveBehaviour.cs" />
-    <Compile Include="Assets\UnityChan\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\UnityChan\Scripts\Mover.cs" />
     <Compile Include="Assets\UnityChan\Scripts\ThirdPersonOrbitCamBasic.cs" />
   </ItemGroup>
   <ItemGroup>
